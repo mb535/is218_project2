@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <style>  
+    body {  
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      height:100%;}
+    .border { width:350px ; 
+       margin:auto ; 
+       margin-top:30px ;
+       border: 2px white; 
+       padding: 10px; 
+       border-radius: 15px; 
+       background-color: #F0FFFF; }    
+    .btn {margin-top:30px ;}
+    </style>
+    <title>Login Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+    <body background="sky.jpeg" >
+    <div class="container">
+    <form action="." method="post">
+        <input type="hidden" name="action" value="auth_login">
+        <div class = "border">
+        <h2>  To-Do Manager</h2>
+        <h2><legend>Login</legend></h2>
+            <div class="form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" name="email" class="form-control" id="email" placeholder="enter Email Address" autocomplete="off"> 
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type=text name="password" class="form-control" id="password" placeholder="enter Password" autocomplete="off"> 
+            </div>
+            <div class="form-group">
+              <a href="https://web.njit.edu/~mb535/is218_project2/signup_page.html">Not Signed Up? Click Here</a>
+            </div>
+            <input type="submit" class="btn btn-info" value="Submit">
+
+        </div>
+      </form>
+    </div>
+  </body>
+
+
+</html>
